@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./telephone-svgrepo-com.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Projetos</a></li>
+                <li><a href="about.html">Sobre Mim</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contato</h1>
+            <form action="https://formspree.io/f/myformid" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p>Email:csuagabryel@gmail.com</p>
+                <p>Telefone: 13 98158-1449 </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/seuperfil" target="_blank" aria-label="LinkedIn">
+                <img src="linkedin-icon.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/seuperfil" target="_blank" aria-label="GitHub">
+                <img src="github-icon.svg" alt="GitHub">
+            </a>
+            <a href="https://twitter.com/seuperfil" target="_blank" aria-label="Twitter">
+                <img src="twitter-icon.svg" alt="Twitter">
+            </a>
+        </div>
+        <p>© 2024 Cauã. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
